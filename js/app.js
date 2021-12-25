@@ -1,4 +1,4 @@
-function timeShower() {
+function time() {
     var timeNow = new Date();
 
     document.querySelector(".hours").textContent = timeNow.getHours();
@@ -6,8 +6,8 @@ function timeShower() {
     document.querySelector(".seconds").textContent = timeNow.getSeconds();
 }
 
-timeShower();
+time();
 
 setInterval(function() {
-    timeShower();
+    time();
 }, 1000);
