@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 20% auto;
+    text-align: center;
+}
+
+h1 {
+    background: rgb(238,226,226);
+    background: linear-gradient(110deg, rgba(238,226,226,1) 11%, rgba(250,230,230,1) 49%, rgba(215,219,222,1) 100%);
+    display: inline-block;
+    padding: 24px 40px;
+    font-family: system-ui;
+    color: #182848;
+    font-size: 45px;
+}
